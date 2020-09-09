@@ -1,15 +1,37 @@
 # Udacity_data_analysis
-This is a group of data analysis projects conducted over the course of Udacity Data Analyst nano-degree. 
+This is a group of data analysis projects conducted during Udacity Data Analyst nanodegree.
 
+### Table of Contents
+- **Project 1. Weather data investigation**
+A moving average visualisation model based on weather data.
+- **Project 2. TMDB movie data analysis**
+Wrangling, exploratory analysis and visualisation of the data from over 10,000 movies.
+- **Project 3. A/B test and practical statistics**
+Hypothesis testing and regression analysis on whether a new website page performs better than another.
+- **Project 4. Data wrangling project description**
+Gathering data from web scraping, specifically Twitter API, cleaning up 10 quality and 2 tidiness issues, followed by a brief visualisation.
 
-### Project 1. Weather data investigation
-This project is a simple investigation effort with a summary of moving average weather data. 
-
-### Project 2. TMDB movie data analysis
-This project includes wrangling, exploratory analysis and visualisation of data about over 10,000 movies. 
-
-### Project 3. A/B test and practical statistics
-This project involves a series of hypothesis testing and regressional analysis on whether a new website page performs better than another. 
-
-### Project 4. Data wrangling project description
-This project is about gathering data from different sources, including web scraping and download programmatically, and then clean up the data for further analysis. A brief visual analysis is also included. 
+### Install
+```
+pip install pandas
+```
+```
+pip install numpy
+```
+```
+python -m pip install -U matplotlib
+```
+```
+pip install seaborn
+```
+For project 3
+```
+pip install -U statsmodels
+```
+```
+pip install -U scikit-learn
+```
+### Query Twitter Data
+I used [Tweepy](https://www.tweepy.org/) to query Twitter's API for additional data beyond the data included in the WeRateDogs Twitter archive.
+- First, if you do not already have one, you need to sign up for a [Twitter account](https://help.twitter.com/en/create-twitter-account).
+- Next, to set up a developer account, follow the directions on [Twitter’s Developer Portal](https://developer.twitter.com/en/docs/basics/developer-portal/overview), in the “How to Apply” section.
