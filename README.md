@@ -13,23 +13,12 @@ Gathering data from web scraping, specifically Twitter API, cleaning up 10 quali
 
 ### Install
 ```
-pip install pandas
+pip install pandas numpy matplotlib seaborn
 ```
-```
-pip install numpy
-```
-```
-python -m pip install -U matplotlib
-```
-```
-pip install seaborn
-```
+
 For project 3
 ```
-pip install -U statsmodels
-```
-```
-pip install -U scikit-learn
+pip install statsmodels scikit-learn
 ```
 ### Query Twitter Data
 I used [Tweepy](https://www.tweepy.org/) to query Twitter's API for additional data beyond the data included in the WeRateDogs Twitter archive.
